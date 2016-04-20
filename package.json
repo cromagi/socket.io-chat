@@ -1,6 +1,10 @@
 {
   "name": "iochat",
   "version": "0.0.0",
+  "engines": {
+    "node": "4.2.6",
+    "npm": "3.8.2"
+  },
   "description": "Simple chat app",
   "main": "server.js",
   "scripts": {
