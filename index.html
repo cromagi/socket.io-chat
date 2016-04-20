@@ -7,6 +7,7 @@
   <style>
   body{
     margin-top: 40px;
+    margin-left: 100px;
   }
   #messageArea{
     display:none;
@@ -19,7 +20,6 @@
         <div class = "col-md-12">
           <form id = "userForm">
             <div class = "form-group">
-
               <label>Enter Username</label>
               <input class = "form-control" id = "username"/>
               <br/>
@@ -63,7 +63,7 @@
         var $userFormArea = $('#userFormArea');
         var $userForm = $('#userForm');
         var $users = $('#users');
-        var $username = $('#userFormArea');
+        var $username = $('#username');
 
         $messageForm.submit(function(e){
           e.preventDefault();
