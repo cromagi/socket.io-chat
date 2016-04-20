@@ -38,6 +38,6 @@ io.sockets.on('connection', function(socket){
     updateUsernames();
   });
   function updateUsernames(){
-    io.sockets.emit('get users', users);
+    io.sockets.emit('get users', username);
   }
 });
